@@ -1,110 +1,204 @@
-# 🛒 ShopNext E-Commerce Analytics Dashboard
+# 🛒 ShopNest E-Commerce Analytics: Revenue & Delivery Performance Dashboard
 
-An end-to-end Business Intelligence project analyzing sales growth, delivery performance, and customer behavior using Power BI and Streamlit.
+## 🎥 Dashboard Preview
 
-This project transforms raw transactional data into actionable business insights and presents them through an interactive dashboard and web app.
-
----
-
-## 🌐 Live Demo
-👉 https://yourname-shopnext.streamlit.app
+<p align="center">
+  <img src="./assets/dashboard_demo.gif" width="900"/>
+</p>
 
 ---
 
-## 📊 Project Overview
-ShopNext is an e-commerce platform experiencing rapid growth.  
-The objective of this project is to evaluate:
+## 📖 The Story
 
-- Revenue growth trends
-- Delivery reliability
-- Customer satisfaction
-- Operational bottlenecks
+ShopNest is a growing e-commerce company showing strong revenue growth. At first glance, everything seems to be working well — orders are increasing, and revenue is steadily rising.
 
-The project provides both **executive monitoring** and **root cause investigation** capabilities.
+But growth alone doesn’t tell the full story.
 
----
+Behind the numbers, there are hidden operational challenges:
 
-## 🧠 Business Questions Answered
+* Are deliveries happening on time?
+* Which products are causing delays?
+* Are customers actually satisfied?
 
-1. Is the business growing?
-2. Are deliveries reliable?
-3. Which categories take longest to deliver?
-4. Which regions cause operational pressure?
-5. How does delivery impact customer satisfaction?
+This project was built to answer those questions and uncover the **real story behind the data**.
 
 ---
 
-## 📈 Key Insights
+## 🔍 The Problem
 
-- Revenue increased **17% YoY**
-- Only **8.1% orders delivered late**
-- Average delivery time remains **12.5 days**
-- Furniture & bulky items cause longest delivery times
-- São Paulo drives highest revenue and most delays
-- Delivery speed strongly influences product ratings
+While revenue is increasing, ShopNest lacks visibility into:
 
----
+* Delivery delays and operational inefficiencies
+* Category-level performance
+* Customer experience and satisfaction
 
-## 🧩 Dashboard Features
-
-### Executive Dashboard
-- Revenue & Growth KPIs
-- On-time vs Late deliveries trend
-- Top revenue categories
-- Customer payment behavior
-- Geographic performance
-
-### Investigation Dashboard
-- Late orders by category & state
-- Delivery time distribution
-- Order level analysis table
-- Root cause identification
-
-### Interactive Tooltip
-- Quick KPI snapshot on hover
+👉 Without this visibility, growth could lead to **customer dissatisfaction and operational strain**.
 
 ---
 
-## 🛠 Tools & Technologies
+## 💡 The Approach
 
-| Tool | Purpose |
-|-----|------|
-Power BI | Data modeling & dashboard |
-DAX | KPI calculations |
-Streamlit | Interactive portfolio app |
-Python | Web deployment |
-GitHub | Version control |
+To solve this, I built an interactive Power BI dashboard that allows stakeholders to move from **high-level KPIs → detailed operational insights**.
 
----
+The dashboard answers:
 
-## 📂 Project Structure
-
-shopnext-ecommerce-analytics/
-│── app.py
-│── overview.png
-│── investigation.png
-│── report.pdf
-│── README.md
-│── data/
-│── powerbi/
-
+* What is driving revenue?
+* Where are delays happening?
+* Which regions and products need attention?
 
 ---
 
-## ⚙️ Technical Implementation
+## 📊 The Big Picture
 
-- Star schema data model
-- Calendar table for time intelligence
-- YoY revenue calculation
-- Delivery duration computation
-- Drillthrough analysis page
-- Conditional formatting KPIs
-- Streamlit web app integration
+<p align="center">
+  <img src="./assets/shopnest_overview.png" width="900"/>
+</p>
+
+At a glance, the business looks strong:
+
+* 💰 Revenue: **15.84M**
+* 📈 Growth: **17.1% YoY**
+* 📦 Orders: **99K**
+
+But one metric stands out:
+
+* ⏱ Average delivery time: **12.5 days**
+
+👉 This hints at a deeper operational issue.
 
 ---
 
-## ▶️ Run Locally
+## 📦 What’s Driving Revenue?
 
-```bash
-pip install streamlit pillow
-streamlit run app.py
+<p align="center">
+  <img src="./assets/revenue_categories.png" width="700"/>
+</p>
+
+Revenue is dominated by:
+
+* Health & Beauty
+* Watches & Gifts
+* Bed & Bath
+
+👉 The business relies heavily on lifestyle products — a key area to protect and optimize.
+
+---
+
+## 🚚 What’s Happening with Deliveries?
+
+<p align="center">
+  <img src="./assets/delivery_trend.png" width="700"/>
+</p>
+
+* Most deliveries are on time
+* But delays increase during peak periods
+
+👉 Growth is putting pressure on operations.
+
+---
+
+## 🐢 The Real Bottleneck
+
+<p align="center">
+  <img src="./assets/slow_categories.png" width="700"/>
+</p>
+
+Certain categories stand out:
+
+* Furniture
+* Bulky products
+
+👉 These take significantly longer to deliver.
+
+This reveals a key insight:
+
+> Not all products behave the same — logistics complexity matters.
+
+---
+
+## 🌍 Where Is the Pressure Coming From?
+
+<p align="center">
+  <img src="./assets/geo_revenue.png" width="700"/>
+</p>
+
+São Paulo (SP):
+
+* Highest revenue
+* Highest delays
+
+👉 High demand regions are creating **operational bottlenecks**
+
+---
+
+## 🔍 Digging Deeper
+
+<p align="center">
+  <img src="./assets/delivery_analysis.png" width="900"/>
+</p>
+
+When drilling into delays:
+
+* Some deliveries take **50+ days**
+* Delays cluster around specific categories and regions
+
+👉 This confirms the issue is **systematic, not random**
+
+---
+
+## 🧠 What Did We Learn?
+
+* Growth is strong, but operations are under pressure
+* Delivery delays are concentrated in:
+
+  * Bulky product categories
+  * High-demand regions
+* Customer satisfaction is closely tied to delivery performance
+
+---
+
+## 📈 The Impact
+
+This analysis helps the business:
+
+* Identify operational bottlenecks
+* Improve delivery efficiency
+* Enhance customer experience
+* Support data-driven decision making
+
+---
+
+## 🚀 Recommendations
+
+Based on the insights:
+
+* Optimize logistics for bulky products
+* Introduce regional warehouses (especially in SP)
+* Improve last-mile delivery tracking
+* Implement predictive delay monitoring
+
+---
+
+## ⚙️ Tools Used
+
+* Power BI
+* DAX
+* Data Modeling
+* Time Intelligence
+* Drillthrough Analysis
+
+---
+
+## 👨‍💻 Author
+
+**Anisha Maurya**
+Aspiring Data Analyst 🚀
+
+---
+
+
+
+
+
+
+
