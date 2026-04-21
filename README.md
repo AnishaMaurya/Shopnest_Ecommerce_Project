@@ -1,12 +1,4 @@
-# 🛒 ShopNest E-Commerce Analytics: Revenue & Delivery Performance Dashboard
-
-## 🎥 Dashboard Preview
-
-<p align="center">
-  <img src="./assets/dashboard_demo.gif" width="900"/>
-</p>
-
----
+# 🛒 E-Commerce Revenue & Delivery Performance Dashboard | Power BI
 
 ## 📖 The Story
 
@@ -50,9 +42,7 @@ The dashboard answers:
 
 ## 📊 The Big Picture
 
-<p align="center">
-  <img src="./assets/shopnest_overview.png" width="900"/>
-</p>
+<img width="713" height="55" alt="image" src="https://github.com/user-attachments/assets/0038b27f-1d63-4f12-bd12-396dc350d991" />
 
 At a glance, the business looks strong:
 
@@ -70,9 +60,7 @@ But one metric stands out:
 
 ## 📦 What’s Driving Revenue?
 
-<p align="center">
-  <img src="./assets/revenue_categories.png" width="700"/>
-</p>
+<img width="492" height="218" alt="image" src="https://github.com/user-attachments/assets/b899c2ab-cd94-4c7d-bf9b-1fe9f3bc6170" />
 
 Revenue is dominated by:
 
@@ -86,9 +74,8 @@ Revenue is dominated by:
 
 ## 🚚 What’s Happening with Deliveries?
 
-<p align="center">
-  <img src="./assets/delivery_trend.png" width="700"/>
-</p>
+<img width="466" height="155" alt="image" src="https://github.com/user-attachments/assets/67ad2ac7-66ae-4dc9-90c6-3d9421fe42a8" />
+
 
 * Most deliveries are on time
 * But delays increase during peak periods
@@ -99,9 +86,9 @@ Revenue is dominated by:
 
 ## 🐢 The Real Bottleneck
 
-<p align="center">
-  <img src="./assets/slow_categories.png" width="700"/>
-</p>
+<img width="436" height="191" alt="image" src="https://github.com/user-attachments/assets/76f4666b-a9e7-4cd9-8a0d-7332095122ab" />
+
+
 
 Certain categories stand out:
 
@@ -118,9 +105,8 @@ This reveals a key insight:
 
 ## 🌍 Where Is the Pressure Coming From?
 
-<p align="center">
-  <img src="./assets/geo_revenue.png" width="700"/>
-</p>
+<img width="665" height="258" alt="image" src="https://github.com/user-attachments/assets/547fe186-4dbc-47d1-bdca-3c0a18709d11" />
+
 
 São Paulo (SP):
 
@@ -133,9 +119,8 @@ São Paulo (SP):
 
 ## 🔍 Digging Deeper
 
-<p align="center">
-  <img src="./assets/delivery_analysis.png" width="900"/>
-</p>
+<img width="946" height="526" alt="image" src="https://github.com/user-attachments/assets/8d202b6e-c0d5-4a7a-8528-9bfcd8ccf598" />
+
 
 When drilling into delays:
 
